@@ -56,10 +56,11 @@ const LatestBlog = () => {
                                 fontStyle: "italic",
                             }}
                         >
-                            For insights into our previous initiatives and the
-                            impactful journey through CDKN phase 1 and 2 in
-                            Ghana (2010-2022), explore our main CDKN Website
-                            here.
+                            Engaging stories, insightful blogs, and reflective
+                            pieces highlight the work of CDKN and its partners
+                            in empowering communities in Ghana, fostering
+                            systems that enable resilience and innovation among
+                            the most vulnerable groups.
                         </p>
                     </Col>
                 </Row>
