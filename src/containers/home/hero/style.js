@@ -52,7 +52,8 @@ export const SubTitle = styled.div`
     h6 {
         margin-left: 14px;
         display: inline-block;
-        font-family: ${themeGet("fonts.body")};
+        font-family: Myriad Pro;
+        font-style: none;
         font-size: 22px;
         font-weight: 700;
         margin: 0;

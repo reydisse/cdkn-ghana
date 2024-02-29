@@ -2,8 +2,21 @@
     font-family: "Myriad Pro";
     font-weight: normal;
     font-style: normal;
-    src: url("/fonts/MyriadPro-Bold.woff") format("woff"),
-        url("/fonts/MyriadPro-Regular.ttf") format("truetype");
+    src: url("/fonts/MyriadPro-Regular.ttf") format("truetype");
+
+    /* bold */
+    font-weight: bold;
+    font-style: normal;
+    src: url("/fonts/MyriadPro-Bold.woff") format("woff");
+
+    /* italics */
+    font-weight: normal;
+    font-style: italic;
+    src: url("/fonts/MyriadPro-It.ttf") format("truetype");
+
+    font-weight: normal;
+    font-style: normal;
+    src: url("/fonts/MyriadPro-Regular.ttf") format("truetype");
 }
 
 body {
