@@ -98,7 +98,7 @@ const Hero = () => {
                                     className="btn-wrp"
                                     // sx={{ display: "flex" }}
                                 >
-                                    <Button path="/themes" color="gradient">
+                                    <Button path="/causes" color="gradient">
                                         Themes{" "}
                                         <i className="flaticon-right-arrow"></i>
                                     </Button>
