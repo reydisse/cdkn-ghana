@@ -7,6 +7,7 @@ export const Section = styled.section`
 
 export const HomeSliderItem = styled.div`
     height: auto;
+    background-color: #f2efe5;
     align-items: center;
     display: flex;
     padding-top: 40px;
