@@ -133,17 +133,5 @@ module.exports = {
                 ],
             },
         },
-        {
-            resolve: `gatsby-source-graphql`,
-            options: {
-                typeName: `Keystone`, // Name to give to the fetched data within your queries (Optional, defaults to "GraphQL")
-                fieldName: `keystone`, // Field name to reference in your Gatsby queries
-                url: `http://localhost:3000`, // Replace with your Keystone.js GraphQL API URL
-                headers: {
-                    // Add any necessary authentication headers here (if applicable)
-                },
-                watch: true, // Enable hot reloading (Optional)
-            },
-        },
     ],
 };
