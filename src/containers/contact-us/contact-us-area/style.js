@@ -113,10 +113,12 @@ export const ContactInfoContent = styled.div`
         color: #fff;
         display: block;
         margin-bottom: 1px;
+        text-transform: lowercase;
     }
     p {
         color: #fff;
         margin-bottom: 0;
+        text-transform: lowercase;
     }
 `;
 export const ContactTitle = styled.h4`
