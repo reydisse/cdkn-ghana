@@ -1,0 +1,22 @@
+[
+    {
+        "id": "about-us-page-section",
+        "section_title": {
+            "subTitle": "About Us.",
+            "title": "<span>Climate</span> and Development Knowledge Network."
+        },
+        "image1": "../images/about/3.jpg",
+        "content1": "CDKN Ghana, a pivotal part of the global CDKN initiative, is set to facilitate and enhance climate resilience by addressing the country-specific challenges and opportunities in amplifying climate action efforts in Ghana.",
+        "content2": "Our journey since 2010 has been marked by collaborative efforts in knowledge brokering,  fostering leadership for community action, capacity building and knowledge management, with a keen focus on gender-responsive, socially inclusive climate-resilient development, at the community level and the national level through our locally-led adaptation initiatives and youth work. Our strategies at the local level are tailored to empower communities and drive systemic change, addressing climate and non-climatic risks that impact food security, biodiversity, and livelihoods.",
+        "content3": "In recognition of the boundless energy and potential of the young people and, through this initiative, we aim to work with partners to provide the platform that harnesses their creativity and enthusiasm towards climate action and sustainable development.",
+        "mission": [
+            {
+                "id": "mission",
+                "VerientClassName": "bg-color1",
+                "title": "Mission",
+                "text1": "The Climate and Development Knowledge Network Ghana (CDKN Ghana) in line with the overarching mission of CDKN at the global level,  is committed to enhancing the well-being of those most affected by climate change in Ghana, particularly highly vulnerable and marginalized groups, by spearheading transformative climate-resilient initiatives.",
+                "text2": "Our vision is to catalyze sustainable change in Ghana, aligning developmental pathways with environmental integrity, through climate-smart approaches. We stand united with partners across sectors towards contributing to develop a society that is well-versed in climate issues, ready to adopt sustainable practices, and geared towards inclusive, community-led climate action from the local, national and global levels."
+            }
+        ]
+    }
+]

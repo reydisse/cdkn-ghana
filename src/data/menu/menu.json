@@ -1,0 +1,42 @@
+[
+    {
+        "text": "Home",
+        "link": "/",
+        "isSubmenu": false
+    },
+    {
+        "text": "About",
+        "link": "/about-us",
+        "isSubmenu": false
+    },
+    {
+        "text": "Themes",
+        "link": "/causes",
+        "isSubmenu": false
+    },
+    {
+        "text": "Stories",
+        "link": "/blog",
+        "isSubmenu": false
+    },
+    {
+        "text": "Events & Opportunities",
+        "link": "/volunteer",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "Event Details",
+                "link": "/events/need-school-for-mozambique-children"
+            },
+            {
+                "text": "Volunteer",
+                "link": "/volunteer"
+            }
+        ]
+    },
+    {
+        "text": "Contact Us",
+        "link": "/contact-us",
+        "isSubmenu": false
+    }
+]

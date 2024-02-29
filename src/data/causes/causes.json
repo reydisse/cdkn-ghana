@@ -1,0 +1,150 @@
+[
+    {
+        "image": "../images/causes/01.jpg",
+        "title": "Climate Literacy:",
+        "dec": "We are building a robust educational framework to enhance climate understanding, promote adaptive behaviors, and integrate climate considerations into community planning.Through storytelling, we aim to use innovative knowledge-brokering tools such as Virtual Reality (VR), songs, art, theater, competitions and more, to translate and disseminate existing climate evidence, science and policies,",
+        "adminImage": "../images/icons/admin1.png",
+        "adminName": "Valerie",
+        "detailstext1": "We are building a robust educational framework to enhance climate understanding, promote adaptive behaviors, and integrate climate considerations into community planning. Through storytelling, we aim to use innovative knowledge-brokering tools such as Virtual Reality (VR), songs, art, theater, competitions and more, to translate and disseminate existing climate evidence, science and policies, making it accessible and relevant to all.",
+        "detailstext2": "Through storytelling, we aim to use innovative knowledge-brokering tools such as Virtual Reality (VR), songs, art, theater, competitions and more, to translate and disseminate existing climate evidence, science and policies, making it accessible and relevant to all.",
+        "detailstext3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext6": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "image": "../images/causes/02.jpg",
+        "title": "Empowering young people:",
+        "dec": "We are  empowering young people towards climate action by providing technical, knowledge resources, and capacity-strengthening opportunities to become well-informed catalysts of climate resilience. This initiative aims to enhance their skills to articulate and implement sustainable solutions within their communities, leading community-driven climate action, ",
+        "donateInfo": [
+            {
+                "donateTitle": "Goal:",
+                "amount": "$ 5,000"
+            },
+            {
+                "donateTitle": "Raised:",
+                "amount": "$ 2,000"
+            },
+            {
+                "donateTitle": "To Go:",
+                "amount": "$ 1,000"
+            }
+        ],
+        "adminImage": "../images/icons/admin1.png",
+        "adminName": "Horton",
+        "detailstext1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext6": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "image": "../images/causes/03.jpg",
+        "title": "Voices of African researchers:",
+        "dec": "At CDKN Ghana, we are actively elevating the voices of African researchers within the climate action arena, by integrating their research findings and insights into policy-making, practical applications, and knowledge materials rewritten in language formats that can be understood by everyone regardless of their academic backgrounds.",
+        "donateInfo": [
+            {
+                "donateTitle": "Goal:",
+                "amount": "$ 5,000"
+            },
+            {
+                "donateTitle": "Raised:",
+                "amount": "$ 2,000"
+            },
+            {
+                "donateTitle": "To Go:",
+                "amount": "$ 1,000"
+            }
+        ],
+        "adminImage": "../images/icons/admin1.png",
+        "adminName": "Horton",
+        "detailstext1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext6": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "image": "../images/causes/04.jpg",
+        "title": "Financing for Resilience:",
+        "dec": "As part of our initiative, we are committed to empowering local organizations by facilitating their access to climate financing by providing essential information, training, and advocacy, alongside material and technical support. The initiative offers material and technical support, along with mentorship, aiding these organizations in developing and executing their climate action projects. By promoting and supporting sustainable practices at the community level, we are championing grassroots initiatives",
+        "donateInfo": [
+            {
+                "donateTitle": "Goal:",
+                "amount": "$ 5,000"
+            },
+            {
+                "donateTitle": "Raised:",
+                "amount": "$ 2,000"
+            },
+            {
+                "donateTitle": "To Go:",
+                "amount": "$ 1,000"
+            }
+        ],
+        "adminImage": "../images/icons/admin1.png",
+        "adminName": "Horton",
+        "detailstext1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext6": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "image": "../images/causes/05.jpg",
+        "title": "Gender Equality and Social Inclusion (GESI):",
+        "dec": "As part of our initiatives, CDKN Ghana is committed to integrating Gender Equality and Social Inclusion (GESI) into climate action by ensuring that policies and practices empower marginalized groups. This involves offering concrete guidance, tools, and training designed to address the specific needs and conditions of marginalized groups. In empowering these communities, we aid in the mobilization of existing resources and knowledge to foster adaptive measures to climate change. Moreover, we are dedicated ",
+        "donateInfo": [
+            {
+                "donateTitle": "Goal:",
+                "amount": "$ 5,000"
+            },
+            {
+                "donateTitle": "Raised:",
+                "amount": "$ 2,000"
+            },
+            {
+                "donateTitle": "To Go:",
+                "amount": "$ 1,000"
+            }
+        ],
+        "adminImage": "../images/icons/admin1.png",
+        "adminName": "Horton",
+        "detailstext1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext6": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        "image": "../images/causes/06.jpg",
+        "title": "Ecosystem-based Adaptation:",
+        "dec": "Our approach towards facilitating ecosystem-based adaptation is hinged on exploring innovative, nature-based solutions to climate challenges. This approach involves addressing  climatic risks through nature-based initiatives, increasing community understanding of ecosystem services, and fostering stewardship of local ecosystems. Delving into the potential of the green and blue economy to drive community resilience and sustainable development, CDKN Ghana combines a multidisciplinary and participatory ",
+        "donateInfo": [
+            {
+                "donateTitle": "Goal:",
+                "amount": "$ 5,000"
+            },
+            {
+                "donateTitle": "Raised:",
+                "amount": "$ 2,000"
+            },
+            {
+                "donateTitle": "To Go:",
+                "amount": "$ 1,000"
+            }
+        ],
+        "adminImage": "../images/icons/admin1.png",
+        "adminName": "Horton",
+        "detailstext1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext3": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext4": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "detailstext5": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged was popularised in the 1960s with the release of etraset sheets containing Lorem Ipsum passages",
+        "detailstext6": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500 an when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    }
+]

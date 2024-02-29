@@ -1,0 +1,87 @@
+[
+    {
+        "footerAbout": "As part of the CDKN work across Africa, the programme in Ghana is specifically tailored to address the unique challenges and opportunities present within the Ghanaian context.",
+        "raisedAmount": "$8,965",
+        "galleryTitle": "Gallery",
+        "footerShapeImage": "../../data/images/shape/footer-line.png",
+        "menuTitle": "Quick Links",
+        "gallery": [
+            {
+                "galleryitem": "../../data/images/photos/gallery1-1.jpg",
+                "path": "/"
+            },
+            {
+                "galleryitem": "../../data/images/photos/gallery1-2.jpg",
+                "path": "/"
+            },
+            {
+                "galleryitem": "../../data/images/photos/gallery1-3.jpg",
+                "path": "/"
+            },
+            {
+                "galleryitem": "../../data/images/photos/gallery1-4.jpg",
+                "path": "/"
+            },
+            {
+                "galleryitem": "../../data/images/photos/gallery1-5.jpg",
+                "path": "/"
+            },
+            {
+                "galleryitem": "../../data/images/photos/gallery1-6.jpg",
+                "path": "/"
+            }
+        ],
+        "quickLink": [
+            {
+                "text": "About Us",
+                "path": "/about-us"
+            },
+            {
+                "text": "Themes",
+                "path": "/"
+            },
+            {
+                "text": "Blog",
+                "path": "/"
+            },
+            {
+                "text": "Volunteer",
+                "path": "/"
+            },
+            {
+                "text": "Events",
+                "path": "/"
+            },
+            {
+                "text": "Contact Us",
+                "path": "/"
+            }
+        ],
+        "quickLinkTwo": [
+            {
+                "text": "Link Here",
+                "path": "/volunteer"
+            },
+            {
+                "text": "Link Here",
+                "path": "/"
+            },
+            {
+                "text": "Link Here",
+                "path": "/donate"
+            },
+            {
+                "text": "Link Here",
+                "path": "/volunteer"
+            },
+            {
+                "text": "Link Here",
+                "path": "/"
+            },
+            {
+                "text": "Link Here",
+                "path": "/"
+            }
+        ]
+    }
+]
