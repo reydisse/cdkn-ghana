@@ -21,7 +21,7 @@
     },
     {
         "text": "Events & Opportunities",
-        "link": "/volunteer",
+        "link": "/",
         "isSubmenu": true,
         "submenu": [
             {
