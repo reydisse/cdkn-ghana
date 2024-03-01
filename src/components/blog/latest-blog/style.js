@@ -153,8 +153,8 @@ export const ShapeLine = styled.div`
 `;
 
 export const LatestBlogContent = styled.div`
-    background-color: #f7f7f7;
-    bottom: -125px;
+    // background-color: red;
+    bottom: 0px;
     overflow: hidden;
     padding-bottom: 1px;
     position: absolute;
@@ -212,7 +212,7 @@ export const MetaBox = styled.div`
 `;
 export const Title = styled.h5`
     margin-bottom: 0;
-    line-height: 1.4;
+    // line-height: 1.4;
 `;
 export const TextDetails = styled.p`
     margin: 5px 0 0;

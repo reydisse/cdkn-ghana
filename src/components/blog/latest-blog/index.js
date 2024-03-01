@@ -36,13 +36,13 @@ const LatestBlogItem = ({
                 <Link to={`/${slug}`}>
                     <GatsbyImage image={image} alt={title} />
                 </Link>
-                <MetaDate>
+                {/* <MetaDate>
                     <Link to={`/${slug}`}>
                         <span>{day}</span>
                         {month}
                     </Link>
-                </MetaDate>
-                <ShapeLine />
+                </MetaDate> */}
+                {/* <ShapeLine /> */}
             </Thumb>
             <LatestBlogContent>
                 <LatestBlogContentInner>
