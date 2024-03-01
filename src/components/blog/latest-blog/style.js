@@ -212,7 +212,7 @@ export const MetaBox = styled.div`
 `;
 export const Title = styled.h5`
     margin-bottom: 0;
-    // line-height: 1.4;
+    line-height: 1 !important;
 `;
 export const TextDetails = styled.p`
     margin: 5px 0 0;
