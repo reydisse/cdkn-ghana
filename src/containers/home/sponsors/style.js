@@ -1,5 +1,6 @@
 import styled, { themeGet, device } from "@theme/utils";
 export const SectionArea = styled.section`
+    background-color: #fefbf6;
     padding: 60px 15px 267px;
     ${device.medium} {
         padding: 38px 0 292px;
@@ -12,5 +13,5 @@ export const SectionArea = styled.section`
     }
 `;
 export const BrandLogoContent = styled.div`
-    margin: 16px -27px 0;
+    margin: -30px -27px 0;
 `;

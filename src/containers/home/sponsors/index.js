@@ -40,16 +40,21 @@ const SponsorsArea = () => {
                                 mb: ["30px", "50px", "60px", "60px", "60px"],
                                 mt: ["0px", "0px", "0px", "0px", "60px"],
                             }}
-                            subTitle={"Partnerships that drive change:"}
+                            subTitle={"Partnerships that drive change"}
                         />
                     </Col>
-                    <Col xl={{ span: 7, offset: 1 }} lg={8}>
+                    <Col xl={12}>
                         <BrandLogoContent>
-                            <Row className="row row-cols-3 row-cols-sm-4">
+                            <Row className="row-cols-7">
+                                {" "}
+                                {/* Set number of columns to 7 */}
                                 {sponsorsData &&
                                     sponsorsData.map((item) => {
                                         return (
-                                            <Col key={item.node.id}>
+                                            <Col
+                                                key={item.node.id}
+                                                className="col"
+                                            >
                                                 <SponsorLogo
                                                     sponsorLogo={
                                                         item.node.sponsorLogo
