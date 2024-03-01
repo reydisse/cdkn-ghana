@@ -2,7 +2,7 @@ import styled, { themeGet, device } from "@theme/utils";
 
 export const SectionArea = styled.section`
     padding: 48px 0 2px;
-    background-color: #f2efe5;
+    background-color: #fff;
     ${device.small} {
         padding: 48px 0 0px;
     }

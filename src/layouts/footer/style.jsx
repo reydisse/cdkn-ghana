@@ -6,7 +6,7 @@ export const FooterWrap = styled.footer`
     position: relative;
 `;
 export const FooterMain = styled.div`
-    background-color: #ffcf96;
+    background-color: #fff;
     margin: 0px auto -170px;
     padding: 50px 0 40px;
     max-width: 1555px;
