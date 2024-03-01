@@ -8,7 +8,7 @@ export const SectionArea = styled.section`
         padding: 88px 0 292px;
     }
     ${device.xlarge} {
-        padding: 109px 0 339px;
+        padding: 19px 0 339px;
     }
 `;
 export const BrandLogoContent = styled.div`

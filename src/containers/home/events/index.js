@@ -48,30 +48,9 @@ const EventArea = () => {
                     <Col lg={12}>
                         <SectionTitle
                             titleStyle
-                            title={"Check out previous work"}
-                            subTitle={"Recent Events"}
+                            // title={"Check out previous work"}
+                            subTitle={"Events & Opportunities"}
                         />
-
-                        <p
-                            style={{
-                                fontSize: "20px",
-                                fontWeight: 400,
-                                fontFamily: "Myriad Pro",
-                                fontStyle: "italic",
-                            }}
-                        >
-                            For insights into our previous initiatives and the
-                            impactful journey through CDKN phase 1 and 2 in
-                            Ghana (2010-2022), explore our main CDKN Website
-                            here.
-                        </p>
-
-                        <Button
-                            path="https://cdkn.org/regions/ghana"
-                            color="gradient"
-                        >
-                            CDKN Website
-                        </Button>
                     </Col>
                     <Row>
                         <EventContentWrap>
@@ -97,6 +76,22 @@ const EventArea = () => {
                         </EventContentWrap>
                     </Row>
                 </Row>
+                <p
+                    style={{
+                        fontSize: "20px",
+                        fontWeight: 400,
+                        fontFamily: "Myriad Pro",
+                        fontStyle: "italic",
+                    }}
+                >
+                    For insights into our previous initiatives and the impactful
+                    journey through CDKN phase 1 and 2 in Ghana (2010-2022),
+                    explore our main CDKN Website here.
+                </p>
+
+                <Button path="https://cdkn.org/regions/ghana" color="gradient">
+                    CDKN Website
+                </Button>
             </Container>
         </SectionArea>
     );

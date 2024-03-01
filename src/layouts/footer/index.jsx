@@ -34,10 +34,7 @@ const Footer = () => {
                     path
                     text
                 }
-                quickLinkTwo {
-                    path
-                    text
-                }
+
                 gallery {
                     galleryitem {
                         childImageSharp {
@@ -156,7 +153,7 @@ const Footer = () => {
                                             md={6}
                                             className="col-6 pl-sm-5"
                                         >
-                                            <NavMenu className="align-right">
+                                            {/* <NavMenu className="align-right">
                                                 {quickLinkTwo.map(
                                                     (linkItem, i) => (
                                                         <NavItem
@@ -172,7 +169,7 @@ const Footer = () => {
                                                         </NavItem>
                                                     )
                                                 )}
-                                            </NavMenu>
+                                            </NavMenu> */}
                                         </Col>
                                     </Row>
                                 </WidgetMenuWrap>

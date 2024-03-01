@@ -72,7 +72,6 @@ const theme = {
         },
         body: {
             fontFamily: "body",
-            lineHeight: "body",
             fontWeight: "body",
             color: "text",
             fontSize: "body",

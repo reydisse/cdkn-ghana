@@ -43,10 +43,10 @@ const LatestBlog = () => {
                             textCenter
                             titleStyle
                             sx={{
-                                mb: ["5px", "7px", "10px", "13", "14px"],
+                                mb: ["5px", "7px", "10px", "13px", "14px"],
                             }}
-                            title={"Stories of Resilience"}
-                            subTitle={"Blog Post"}
+                            // title={"Stories of Resilience"}
+                            subTitle={"Stories of Resilience"}
                         />
                         <p
                             style={{
@@ -54,6 +54,7 @@ const LatestBlog = () => {
                                 fontWeight: 400,
                                 fontFamily: "Myriad Pro",
                                 fontStyle: "italic",
+                                textAlign: "center",
                             }}
                         >
                             Engaging stories, insightful blogs, and reflective

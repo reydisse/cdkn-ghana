@@ -32,7 +32,7 @@ const SponsorsArea = () => {
                         sm={{ span: 8, offset: 2 }}
                         md={{ sapn: 8, offset: 2 }}
                         lg={{ span: 4, offset: 0 }}
-                        xl={4}
+                        xl={12}
                     >
                         <SectionTitle
                             texttheme
@@ -40,7 +40,7 @@ const SponsorsArea = () => {
                                 mb: ["30px", "50px", "60px", "60px", "60px"],
                                 mt: ["0px", "0px", "0px", "0px", "60px"],
                             }}
-                            title={"Partnerships that drive change:"}
+                            subTitle={"Partnerships that drive change:"}
                         />
                     </Col>
                     <Col xl={{ span: 7, offset: 1 }} lg={8}>

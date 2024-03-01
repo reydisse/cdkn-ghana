@@ -56,32 +56,6 @@
                 "text": "Contact Us",
                 "path": "/"
             }
-        ],
-        "quickLinkTwo": [
-            {
-                "text": "Link Here",
-                "path": "/volunteer"
-            },
-            {
-                "text": "Link Here",
-                "path": "/"
-            },
-            {
-                "text": "Link Here",
-                "path": "/donate"
-            },
-            {
-                "text": "Link Here",
-                "path": "/volunteer"
-            },
-            {
-                "text": "Link Here",
-                "path": "/"
-            },
-            {
-                "text": "Link Here",
-                "path": "/"
-            }
         ]
     }
 ]

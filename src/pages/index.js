@@ -20,8 +20,8 @@ const IndexPage = () => {
             <Hero />
             <LatestBlog />
             <EventArea />
-            <ServiceArea />
-            <AboutArea />
+            {/* <ServiceArea /> */}
+            {/* <AboutArea /> */}
             {/* <CausesArea /> */}
             {/* <DonateArea /> */}
             {/* <FunfactArea /> */}

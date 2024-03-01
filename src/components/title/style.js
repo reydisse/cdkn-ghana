@@ -9,7 +9,7 @@ export const SubTitle = styled.h5`
     font-family: ${themeGet("fonts.body")};
     font-size: ${themeGet("fontSize.h5.0")};
     font-weight: 700;
-    line-height: 1;
+    line-height: 0;
     margin: 0 0 12px;
     padding-left: 64px;
     position: relative;
@@ -24,7 +24,7 @@ export const SubTitle = styled.h5`
         width: 43px;
     }
     &.line-white-color {
-        color: ${themeGet("colors.white")};
+        color: orange;
         z-index: 1;
         &:after {
             background-color: ${themeGet("colors.white")};
@@ -78,7 +78,7 @@ export const Title = styled.h2`
         -webkit-text-fill-color: transparent;
     }
     &.title-style {
-        margin-top: 39px;
+        margin-top: 8px;
         position: relative;
         z-index: 1;
     }

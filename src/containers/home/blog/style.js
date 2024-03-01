@@ -2,6 +2,7 @@ import styled, { themeGet, device } from "@theme/utils";
 
 export const SectionArea = styled.section`
     padding: 48px 0 2px;
+    background-color: #f2efe5;
     ${device.small} {
         padding: 48px 0 0px;
     }
@@ -12,6 +13,6 @@ export const SectionArea = styled.section`
         padding: 88px 0 92px;
     }
     ${device.xlarge} {
-        padding: 145px 0 120px;
+        padding: 25px 0 120px;
     }
 `;
