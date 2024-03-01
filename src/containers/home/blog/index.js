@@ -55,6 +55,7 @@ const LatestBlog = () => {
                                 fontFamily: "Myriad Pro",
                                 fontStyle: "italic",
                                 textAlign: "center",
+                                marginBottom: "25px",
                             }}
                         >
                             Engaging stories, insightful blogs, and reflective
