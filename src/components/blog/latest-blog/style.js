@@ -54,7 +54,7 @@ export const MetaDate = styled.div`
         margin-bottom: 3px;
     }
     & a {
-        color: #fff;
+        // color: #fff;
         font-size: 13px;
         font-weight: 700;
         display: block;

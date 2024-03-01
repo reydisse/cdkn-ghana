@@ -2,7 +2,7 @@
 title: "Can Online Games Inspire Climate Literacy?"
 thume_image: "../../data/images/blog/1.jpg"
 date: "2024-02-21"
-author: "Prince Ansah"
+author: "CDKN Ghana"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 categories:
     - Education

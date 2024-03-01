@@ -2,7 +2,7 @@
 title: "Reflecting on Innovative Approaches to Enhancing Flood Resilience in Accra; Key Learnings from the CDKN Facilitated Event"
 thume_image: "../../data/images/blog/3.jpg"
 date: "2024-02-20"
-author: "Prince Ansah"
+author: "CDKN Ghana"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 categories:
     - Education

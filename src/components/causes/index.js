@@ -49,8 +49,9 @@ const CausesItem = ({
                         );
                     })}
                 </DonateInfo> */}
+                {/* how to link <Link to={`/causes/${slug}`}>{title}</Link> */}
                 <Title>
-                    <Link to={`/causes/${slug}`}>{title}</Link>
+                    <Link to={``}>{title}</Link>
                 </Title>
                 <p>{dec}</p>
             </ContentBox>

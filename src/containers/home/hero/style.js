@@ -67,8 +67,9 @@ export const SubTitle = styled.div`
 export const HeroTitleWrap = styled.div`
     margin-bottom: 30px;
     h1 {
-        font-size: ${themeGet("fontSize.h1.0")};
-        line-height: 1.2;
+        text-transform: capitalize;
+        font-size: 75px !important;
+        line-height: 1;
         ${device.medium} {
             font-size: ${themeGet("fontSize.h1.2")};
         }
