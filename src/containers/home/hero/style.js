@@ -410,3 +410,8 @@ export const DonateContent = styled.div`
         }
     }
 `;
+
+export const CustomButton = styled.button`
+    background: linear-gradient(to right, #ff8c00, #ffc107);
+    color: #fff;
+`;

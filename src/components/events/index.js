@@ -26,11 +26,12 @@ const EventItem = ({ title, eventDate, eventSubject, thumbImg, slug }) => {
                     className="btn-theme"
                     size="small"
                     color="theme-gradient"
-                    path={`/events/${slug}`}
+                    path={""}
                 >
                     Join Now
                     <i
                         className="flaticon-right-arrow"
+                        // eslint-disable-next-line react/no-unknown-property
                         sx={{ fontSize: "12px" }}
                     ></i>
                 </Button>
@@ -40,7 +41,8 @@ const EventItem = ({ title, eventDate, eventSubject, thumbImg, slug }) => {
                     {eventDate} {"//"} <span>{eventSubject}</span>
                 </EventInfo>
                 <EventName>
-                    <Link to={`/events/${slug}`}>{title}</Link>
+                    <Link to={""}>{title}</Link>
+                    {/* `/events/${slug}` */}
                 </EventName>
             </ContentArea>
         </EventItemWrap>

@@ -91,6 +91,7 @@ Button.propTypes = {
         "outlined-transparent",
         "border-gradient",
         "border-normal",
+        "theme-hero",
     ]),
     size: PropTypes.oneOf(["xsmall", "small", "medium", "large", "fullwidth"]),
     shape: PropTypes.oneOf(["rounded"]),

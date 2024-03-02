@@ -16,6 +16,7 @@ import {
     SliderShape,
     DonateCircleWrap,
     DonateContent,
+    CustomButton,
 } from "./style";
 
 const Hero = () => {
@@ -98,7 +99,7 @@ const Hero = () => {
                                     className="btn-wrp"
                                     // sx={{ display: "flex" }}
                                 >
-                                    <Button path="/causes" color="gradient">
+                                    <Button path="/causes" color="theme-hero">
                                         Themes{" "}
                                         <i className="flaticon-right-arrow"></i>
                                     </Button>

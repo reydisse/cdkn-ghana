@@ -64,6 +64,12 @@ export const createStyles = (theme, color, size, shape, variant) => css`
         border: 2px ​solid #ddd;
     `}
 
+    ${color === "theme-hero" &&
+    css`
+        background: #ffb116;
+        color: #fff;
+    `}
+
     
     ${color === "border-gradient" &&
     css`

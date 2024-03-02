@@ -5,6 +5,11 @@ import SectionTitle from "@components/title";
 import { SectionArea, BrandLogoContent } from "./style";
 import SponsorLogo from "@components/sponsors";
 import { graphql, useStaticQuery } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+
+// Import images
+import fundersImage1 from "../../../data/images/funders/clnt-lgo5.png";
+import fundersImage2 from "../../../data/images/funders/clnt-lgo6.png";
 
 const SponsorsArea = () => {
     const sponsorsQuery = useStaticQuery(graphql`
@@ -24,6 +29,7 @@ const SponsorsArea = () => {
         }
     `);
     const sponsorsData = sponsorsQuery.allSponsorsJson.edges;
+
     return (
         <SectionArea>
             <Container>
@@ -46,26 +52,51 @@ const SponsorsArea = () => {
                     <Col xl={12}>
                         <BrandLogoContent>
                             <Row className="row-cols-7">
-                                {" "}
-                                {/* Set number of columns to 7 */}
                                 {sponsorsData &&
-                                    sponsorsData.map((item) => {
-                                        return (
-                                            <Col
-                                                key={item.node.id}
-                                                className="col"
-                                            >
-                                                <SponsorLogo
-                                                    sponsorLogo={
-                                                        item.node.sponsorLogo
-                                                            .childImageSharp
-                                                    }
-                                                />
-                                            </Col>
-                                        );
-                                    })}
+                                    sponsorsData.map((item) => (
+                                        <Col key={item.node.id} className="col">
+                                            <SponsorLogo
+                                                sponsorLogo={
+                                                    item.node.sponsorLogo
+                                                        .childImageSharp
+                                                }
+                                            />
+                                        </Col>
+                                    ))}
                             </Row>
                         </BrandLogoContent>
+                        <SectionTitle
+                            texttheme
+                            sx={{
+                                mb: ["30px", "50px", "60px", "60px", "60px"],
+                                mt: ["0px", "0px", "0px", "0px", "60px"],
+                            }}
+                            subTitle={"CDKN Funders"}
+                        />
+                        <Col xl={4}>
+                            <BrandLogoContent>
+                                <Row className="row-cols-2">
+                                    {sponsorsData &&
+                                        sponsorsData
+                                            .slice(4, 6)
+                                            .reverse()
+                                            .map((item) => (
+                                                <Col
+                                                    key={item.node.id}
+                                                    className="col"
+                                                >
+                                                    <SponsorLogo
+                                                        sponsorLogo={
+                                                            item.node
+                                                                .sponsorLogo
+                                                                .childImageSharp
+                                                        }
+                                                    />
+                                                </Col>
+                                            ))}
+                                </Row>
+                            </BrandLogoContent>
+                        </Col>
                     </Col>
                 </Row>
             </Container>
