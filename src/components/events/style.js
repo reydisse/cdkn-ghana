@@ -7,6 +7,7 @@ export const EventItemWrap = styled.div`
     ${device.small} {
         display: flex;
         height: 100%;
+        width: 100%;
     }
 `;
 export const Thumb = styled.div`

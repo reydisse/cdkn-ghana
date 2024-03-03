@@ -14,6 +14,7 @@ export const SectionArea = styled.section`
 export const EventContentWrap = styled.div`
     padding-right: 0px;
     padding-top: 30px;
+    font-weight: bold !important;
     // display: flex;
     ${device.large} {
         padding-right: 40px;
@@ -22,7 +23,7 @@ export const EventContentWrap = styled.div`
         padding-right: 40px;
     }
     ${device.xlarge} {
-        padding-right: 170px;
+        // padding-right: 170px;
     }
 `;
 
