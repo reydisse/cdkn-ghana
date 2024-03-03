@@ -1,5 +1,5 @@
 ---
-title: "Reflecting on Innovative Approaches to Enhancing Flood Resilience in Accra; Key Learnings from the CDKN Facilitated Event"
+title: "Reflecting on Innovative Approaches to Enhancing Flood Resilience in Accra"
 thume_image: "../../data/images/blog/3.jpg"
 date: "2024-02-20"
 author: "CDKN Ghana"
@@ -9,6 +9,8 @@ categories:
 tags:
     - Education
 ---
+
+**Reflecting on Innovative Approaches to Enhancing Flood Resilience in Accra; Key Learnings from the CDKN Facilitated Event**
 
 A recent event organised by the Climate and Development Knowledge Network (CDKN) brought together young people (aged 18 - 35) from diverse institutions to brainstorm solutions to address the urgent issue of flood vulnerability in the Accra Metropolis. Through interactive role play sessions and group presentations, this event provided a dynamic platform for participants to delve into the complex nature of flood risks and generate creative, evidence based solutions for climate action in the Metropolis.
 
