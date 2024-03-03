@@ -183,14 +183,15 @@ const Footer = () => {
                 <Row>
                     <Col sx={{ textAlign: "center" }}>
                         <CopyrightText>
-                            &copy; {new Date().getFullYear()} CDKN Ghana.
-                            <a
+                            &copy; {new Date().getFullYear()}, Climate and
+                            Development Knowledge Network.
+                            {/* <a
                                 href="https://cdknghana.org"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Copyright
-                            </a>
+                                gg
+                            </a> */}
                         </CopyrightText>
                     </Col>
                 </Row>

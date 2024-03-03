@@ -82,8 +82,10 @@ const AboutPageArea = () => {
                     <Col lg={8} xl={8}>
                         <AboutContent>
                             <AboutTextStyle>{content1}</AboutTextStyle>
-                            <p>{content2}</p>
-                            <p className="mb-0">{content3}</p>
+                            <AboutTextStyle>{content2}</AboutTextStyle>
+                            <AboutTextStyle className="mb-0">
+                                {content3}
+                            </AboutTextStyle>
                         </AboutContent>
                     </Col>
                     <ContentBoxWrp>

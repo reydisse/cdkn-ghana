@@ -26,8 +26,9 @@ export const ContentBoxItem = styled.div`
 export const Title = styled.h3`
     color: #fff;
     text-align: center;
-    font-size: 38px;
-    margin-bottom: 59px;
+    font-size: 48px !important;
+    font-weight: 700;
+    margin-bottom: 25px;
     padding-left: 28px;
     position: relative;
     &::before {
@@ -50,11 +51,11 @@ export const Title = styled.h3`
 export const DesctionTextOne = styled.p`
     color: #fff;
     margin-bottom: 14px;
-    font-size: 14px;
+    font-size: 20px;
 `;
 
 export const DesctionTextTwo = styled.p`
     color: #fff;
-    font-family: ${themeGet("fonts.heading")};
-    font-size: 14px;
+    font-family: Myriad pro;
+    font-size: 20px;
 `;

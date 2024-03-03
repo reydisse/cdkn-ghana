@@ -21,7 +21,7 @@ export const PageTitleContent = styled.div`
         font-size: 38px;
         line-height: 1.414;
         margin-bottom: 6px;
-        font-family: ${themeGet("fonts.heading")};
+        font-family: Myriad Pro;
         color: #fff;
         ${device.large} {
             font-size: 58px;

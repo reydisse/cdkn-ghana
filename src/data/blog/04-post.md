@@ -5,9 +5,9 @@ date: "2022-02-27"
 author: "CDKN Ghana"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 categories:
-    - Tag
+    - CDKN
 tags:
-    - Tag
+    - CDKN
 ---
 
 _The changing climate in northwest Ghana puts farming livelihoods and food security at risk. Now a project with multiple strands -- from youth engagement, to mobile phone apps, to community outreach centres -- is empowering farmers with the knowledge they need to innovate and adapt. Prince Ansah and Lucia Scodanibbio report._

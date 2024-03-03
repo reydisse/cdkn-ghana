@@ -162,6 +162,7 @@ export const NavItem = styled.li`
 export const CopyrightText = styled.p`
     color: #f4faff;
     font-size: 16px;
+    text-align: center;
     padding-bottom: 15px;
     & > svg {
         width: 15px;
