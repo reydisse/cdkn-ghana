@@ -84,17 +84,21 @@ const ContactUsArea = () => {
                                                 src="../../../data/images/shape/line-s1.png"
                                                 alt="Image-Givest"
                                             /> */}
-                                            <p>
-                                                CDKN, SouthSouthNorth, Cape{" "}
-                                                <br />
-                                                Town, South Africa (SA)
+                                            <p
+                                                style={{
+                                                    textTransform: "none",
+                                                }}
+                                            >
+                                                Haatso-Atomic Road, <br />
+                                                Adjacent Royal Foam <br />
+                                                Accra-Ghana
                                             </p>
                                         </ContactInfoContent>
                                     </ContactInfoItem>
                                 </ContactInfoContentArea>
                                 <iframe
                                     title="Google Map"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8402891185374!2d144.95373631590425!3d-37.81720974201477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2ssg!4v1607294780661!5m2!1sen!2ssg"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.098732037819!2d-0.2012139!3d5.667803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNc2wMzInMTkuNyJTIDDCsDQ1JzAyLjQiVw!5e0!3m2!1sen!2sgh!4v1646296700026!5m2!1sen!2sgh"
                                 ></iframe>
                             </ContactMapArea>
                         </ContactColunm>

@@ -18,9 +18,9 @@ const CausesPages = ({ location, pageContext }) => {
                 title="Volunteer"
             />
             <JoinApplyArea />
-            <TeamArea />
-            <FunfactArea />
-            <TestimonialArea />
+            {/* <TeamArea /> */}
+            {/* <FunfactArea /> */}
+            {/* <TestimonialArea /> */}
             <SponsorsArea />
         </Layout>
     );

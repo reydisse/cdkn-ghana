@@ -6,6 +6,20 @@ export const HeaderNavigationArea = styled.div`
         display: block;
     }
 `;
+
+export const Socials = styled.ul`
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    list-style: none;
+    li {
+        padding: 0 10px; /* Adjust the padding as needed */
+    }
+`;
+
 export const Navbar = styled.ul`
     display: flex;
     justify-content: center;

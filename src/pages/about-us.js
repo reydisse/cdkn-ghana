@@ -18,7 +18,7 @@ const AboutUsPage = ({ location, pageContext }) => {
                 title="About Us"
             />
             <AboutPageArea />
-            <VolunteerArea />
+            {/* <VolunteerArea /> */}
             {/* <FunfactArea /> */}
             {/* <TestimonialArea /> */}
             <SponsorsArea />
