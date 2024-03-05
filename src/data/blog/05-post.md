@@ -5,9 +5,9 @@ date: "2024-01-01"
 author: "CDKN Ghana"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 categories:
-    - CDKN
+    - Financing
 tags:
-    - Blog
+    - ⁠⁠Financing for Resilience
 ---
 
 **Introduction**

@@ -5,10 +5,9 @@ date: "2023-12-07"
 author: "My JoyOnline"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 categories:
-    - CDKN
+    - Literacy
 tags:
-    - Okyeame Kwame
-    - Climate Change Literacy
+    - Climate Literacy
 ---
 
 The Climate and Development Knowledge Network (CDKN), in collaboration with the Okyeame Kwame (OK) Foundation, and Centre for Climate Change and Sustainability Studies (C3SS), University of Ghana, hosted a conversation on Art and Climate Activism as part of the Centre’s Climate Change and Sustainability Seminar Series.
