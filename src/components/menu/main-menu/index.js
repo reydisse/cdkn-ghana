@@ -8,7 +8,7 @@ const MainMenu = ({ allmenuData }) => {
     return (
         <HeaderNavigationArea>
             {/* Add social media links here */}
-            <Socials>
+            {/* <Socials>
                 <li>
                     <a
                         className="color-twitter"
@@ -59,7 +59,7 @@ const MainMenu = ({ allmenuData }) => {
                         <i className="social_facebook"></i>
                     </a>
                 </li>
-            </Socials>
+            </Socials> */}
             <Navbar className="main-menu">
                 {menuarr.map((menu) => {
                     const hasSubmenu = menu.node.isSubmenu ? true : false;

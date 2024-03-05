@@ -27,6 +27,19 @@ export const FooterMain = styled.div`
     }
 `;
 
+export const Socials = styled.ul`
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 65px;
+    list-style: none;
+    li {
+        padding: 0 10px; /* Adjust the padding as needed */
+    }
+`;
+
 export const WidgetItem = styled.div`
     position: relative;
     z-index: 1;

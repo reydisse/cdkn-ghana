@@ -220,7 +220,7 @@ export const GlobalCSS = () => {
                 }
                 a {
                     transition: ${theme.transition};
-                    color: ${theme.colors.text};
+                    // color: ${theme.colors.text};
                     text-decoration: none;
                     &:hover {
                         text-decoration: none;
@@ -246,7 +246,7 @@ export const GlobalCSS = () => {
                     font-family: "Myriad Pro", Helvetica, sans-serif;
                     line-height: ${theme.lineHeights.heading};
                     color: ${theme.colors.heading};
-                    font-weight: ${theme.fontWeights.heading};
+                    // font-weight: ${theme.fontWeights.heading};
                     margin: 0;
                     margin-bottom: 8px;
                 }

@@ -5,7 +5,7 @@ date: "2024-01-01"
 author: "CDKN Ghana"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 categories:
-    - Financing
+    - LLA
 tags:
     - ⁠⁠Financing for Resilience
 ---

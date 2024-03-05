@@ -7,7 +7,7 @@ quote_text: "The use of apps in investment ideas is a great way to enjoy the con
 categories:
     - Literacy
 tags:
-    - Literacy
+    - Climate Literacy
 ---
 
 At a youth focused event in Accra, a group of teenagers got a chance to learn about climate change in a fun and engaging way, through the Climate and Development Knowledge Network (CDKN) innovative knowledge brokering initiative. This event showed that learning about climate issues can be enjoyable and interactive, especially for young people. Here’s a look at how this event used games and activities to teach climate change and highlights CDKN's role in making climate education accessible to everyone.

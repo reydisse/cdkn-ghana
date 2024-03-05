@@ -5,9 +5,9 @@ date: "2024-02-10"
 author: "CDKN Ghana"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 categories:
-    - Literacy
+    - LLA
 tags:
-    - Climate Literacy
+    - ⁠Financing for Resilience
 ---
 
 In the Upper West Region of Ghana, a remarkable approach to adapting to climate change is unfolding, driven by the innovative strategies of the local community. These efforts, deeply rooted in their knowledge, education, technology and collective action, provide a roadmap for building resilience against the ever changing challenges posed by climate change. The journey of adaptation in the Lawra District within this region highlights how climatic risks have evolved over time. Initially, the main obstacle was crop failure due to unpredictable rainfall patterns. However, as the climate crisis intensified, bushfires became a new threat due to prolonged droughts. This situation underscored the need for flexible adaptation strategies that can effectively address both agricultural and environmental challenges by combining scientific insights with traditional wisdom.

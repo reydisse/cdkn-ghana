@@ -22,7 +22,7 @@ const BlogSidebar = () => {
             </Widget>
 
             <Widget>
-                <WidgetTitle>Theme Categories</WidgetTitle>
+                <WidgetTitle>Tags</WidgetTitle>
                 <SeparatorLine>
                     {/* <StaticImage
                         className="me-1"
@@ -45,8 +45,8 @@ const BlogSidebar = () => {
                 <UrgentCauses />
             </Widget> */}
 
-            <Widget className="mb-0 pb-3">
-                <WidgetTitle>Tags</WidgetTitle>
+            <Widget>
+                <WidgetTitle>Theme Categories</WidgetTitle>
                 <SeparatorLine>
                     {/* <StaticImage
                         className="me-1"

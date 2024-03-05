@@ -136,7 +136,7 @@ const SinglePosts = ({ data, location, pageContext }) => {
                                                 </a>
                                             </PostSocialItems>
                                             <PostCategoryItems>
-                                                <span>Tags:</span>
+                                                <span>Category: </span>
                                                 {post.tags.map((tag, i) => (
                                                     <Link
                                                         key={i}
@@ -153,13 +153,13 @@ const SinglePosts = ({ data, location, pageContext }) => {
                                             </PostCategoryItems>
                                         </CategorySocialContent>
                                     </Content>
-                                    <CommentArea>
+                                    {/* <CommentArea>
                                         <CommentTitle>Comments</CommentTitle>
                                         <DiscussionEmbed
                                             shortname={disqusShorttname}
                                             config={disquscConfig}
                                         />
-                                    </CommentArea>
+                                    </CommentArea> */}
                                 </PostDetailsBody>
                             </PostDetailsContentWrap>
                         </Col>

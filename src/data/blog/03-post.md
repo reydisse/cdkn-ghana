@@ -5,9 +5,9 @@ date: "2024-02-20"
 author: "CDKN Ghana"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 categories:
-    - Literacy
+    - Research
 tags:
-    - Climate Literacy
+    - Voices of African Researchers
 ---
 
 **Reflecting on Innovative Approaches to Enhancing Flood Resilience in Accra; Key Learnings from the CDKN Facilitated Event**

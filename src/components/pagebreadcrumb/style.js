@@ -38,17 +38,20 @@ export const PageTitleContent = styled.div`
             list-style: none;
             display: flex;
             align-items: center;
+            visibility: hidden;
             color: #fff;
             padding: 0;
             & .breadcrumb__separator {
                 margin-right: 10px;
                 margin-left: 10px;
+                visibility: hidden;
             }
             .breadcrumb__link {
                 color: #fff;
                 font-size: 18px;
                 font-weight: 700;
                 margin-bottom: 8px;
+                visibility: hidden;
                 &.breadcrumb__link__active {
                     color: #fea444;
                 }

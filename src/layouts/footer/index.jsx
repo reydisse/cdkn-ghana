@@ -23,6 +23,7 @@ import {
     NavMenu,
     NavItem,
     FooterShapeLayer,
+    Socials,
 } from "./style";
 
 const Footer = () => {
@@ -101,13 +102,15 @@ const Footer = () => {
                                                     <GalleryItem>
                                                         <GatsbyImage
                                                             image={imageGallery}
-                                                            alt="Givest-HasTech"
+                                                            alt="CDKN Ghana"
                                                         />
                                                         <a
                                                             className="icon"
-                                                            href="#!"
+                                                            href={item.path}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
                                                         >
-                                                            <i className="icofont-instagram"></i>
+                                                            <i className="icofont-link"></i>
                                                         </a>
                                                     </GalleryItem>
                                                 </Col>
@@ -115,6 +118,58 @@ const Footer = () => {
                                         })}
                                     </Row>
                                 </WidgetGallery>
+                                <Socials>
+                                    <li>
+                                        <a
+                                            className="color-twitter"
+                                            href="https://twitter.com/cdknghana"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="social_twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            className="color-linkedin"
+                                            href="https://www.linkedin.com/company/climate-and-development-knowledge-network/?viewAsMember=true"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="social_linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            className="color-dribbble"
+                                            href="https://www.instagram.com/cdkn_ghana/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="social_instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            className="color-pinterest"
+                                            href="https://www.youtube.com/channel/UCjUGT9Xbqcb20ELeF-ElTmA"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="social_youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            className="color-facebook"
+                                            href="https://www.facebook.com/cdknghana/?_rdc=1&_rdr"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <i className="social_facebook"></i>
+                                        </a>
+                                    </li>
+                                </Socials>
                             </WidgetItem>
                         </Col>
                         <Col sm={6} md={6} lg={4} xl={4}>

@@ -39,7 +39,7 @@ export const MetaDate = styled.div`
     top: auto;
     span {
         display: block;
-        font-family: ${themeGet("fonts.heading")};
+        font-family: Myriad Pro, monospace;
         font-weight: 400;
         font-size: 38px;
         letter-spacing: 0;
@@ -47,9 +47,9 @@ export const MetaDate = styled.div`
         margin-bottom: 3px;
     }
     & a {
-        color: #fff;
+        // color: #fff;
         font-size: 13px;
-        font-weight: 700;
+        font-weight: bold;
         display: block;
         letter-spacing: 1.2px;
         text-transform: uppercase;
