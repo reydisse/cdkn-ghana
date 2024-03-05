@@ -10,7 +10,7 @@ import CausesAll from "../containers/causes/causes";
 const CausesPages = ({ location, pageContext }) => {
     return (
         <Layout>
-            <SEO title="Themes" pathname="/" />
+            <SEO title="Themes" pathname="/causes" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}

@@ -63,11 +63,32 @@ const SEO = ({
     const rootUrl = siteUrl + rootPath;
     const prevLink = prevPage && prevPage !== null && rootUrl + prevPage;
     const nextLink = nextPage && nextPage !== null && rootUrl + nextPage;
+
     let siteTitle;
-    if (pathname === "/") {
-        siteTitle = `${site.siteMetadata.titleTemplate} By ${site.siteMetadata.title}`;
-    } else {
-        siteTitle = `${template} By ${metaTitle}`;
+
+    switch (pathname) {
+        case "/":
+            siteTitle = `Home | ${site.siteMetadata.title}`;
+            break;
+        case "/about-us":
+            siteTitle = `About us | ${site.siteMetadata.title}`;
+            break;
+        case "/causes":
+            siteTitle = `Themes | ${site.siteMetadata.title}`;
+            break;
+        case "/blog":
+            siteTitle = `Stories of Resilience | ${site.siteMetadata.title}`;
+            break;
+        case "/volunteer":
+            siteTitle = `Become a volunteer | ${site.siteMetadata.title}`;
+            break;
+        case "/contact-us":
+            siteTitle = `Contact Us | ${site.siteMetadata.title}`;
+            break;
+        default:
+            siteTitle = `${
+                pathname.charAt(0).toUpperCase() + pathname.slice(1)
+            } | ${site.siteMetadata.title}`;
     }
 
     const basSchema = [

@@ -1,11 +1,11 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
     title: "CDKN Ghana",
-    titleTemplate: "CDKN Ghana",
+    titleTemplate: "Climate Development Knowledge Network",
     description:
-        "lorem ipsum dolor is a dumy text used by developers world wide",
+        "As part of the CDKN work across Africa, the programme in Ghana is specifically tailored to address the unique challenges and opportunities present within the Ghanaian context.",
     author: "",
-    twitterUsername: "@Givest",
+    twitterUsername: "CDKN Ghana",
     keywords: ["bootstrap", "html", "react", "vue"],
     image: "",
     siteUrl: "https://cdknghana.com",

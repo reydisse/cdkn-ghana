@@ -11,7 +11,7 @@ import JoinApplyArea from "../containers/volunteer/apply";
 const CausesPages = ({ location, pageContext }) => {
     return (
         <Layout>
-            <SEO title="Volunteer" pathname="/" />
+            <SEO title="Volunteer" pathname="/volunteer" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}

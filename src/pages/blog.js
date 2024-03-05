@@ -11,7 +11,7 @@ import BlogSidebar from "../containers/blog/blog-sideber";
 const BlogPage = ({ location, pageContext }) => {
     return (
         <Layout>
-            <SEO title="Blog" pathname="/" />
+            <SEO title="Blog" pathname="/blog" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}

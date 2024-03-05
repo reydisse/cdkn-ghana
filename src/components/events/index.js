@@ -26,9 +26,11 @@ const EventItem = ({ title, eventDate, eventSubject, thumbImg, slug }) => {
                     className="btn-theme"
                     size="small"
                     color="theme-gradient"
-                    path={""}
+                    path={
+                        "https://docs.google.com/spreadsheets/d/1SyRwn-q3cyleST8WStjjK9QVdIQhFNhg/edit#gid=1282983377"
+                    }
                 >
-                    Join Now
+                    View more
                     <i
                         className="flaticon-right-arrow"
                         // eslint-disable-next-line react/no-unknown-property

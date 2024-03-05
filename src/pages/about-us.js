@@ -11,7 +11,7 @@ import VolunteerArea from "../containers/about-us/volunteer";
 const AboutUsPage = ({ location, pageContext }) => {
     return (
         <Layout>
-            <SEO title="About us" pathname="/" />
+            <SEO title="About us" pathname="/about-us" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}

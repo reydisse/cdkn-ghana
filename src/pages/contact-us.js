@@ -7,7 +7,7 @@ import ContactUsArea from "../containers/contact-us/contact-us-area";
 const ContactPages = ({ location, pageContext }) => {
     return (
         <Layout>
-            <SEO title="Contact Pages" pathname="/" />
+            <SEO title="Contact Pages" pathname="/contact-us" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
