@@ -19,6 +19,7 @@ const BlogPage = ({ location, pageContext }) => {
             />
             <div
                 className="blog-grid-area"
+                // eslint-disable-next-line react/no-unknown-property
                 sx={{
                     pt: ["70px", "100px", "120px", "150px"],
                     pb: ["280px", "300px", "300px", "390px"],
