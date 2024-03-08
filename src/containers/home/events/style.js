@@ -2,7 +2,7 @@ import styled, { themeGet, device } from "@theme/utils";
 
 export const SectionArea = styled.section`
     background-color: #fff;
-    padding: 78px 0 157px;
+    padding: 78px 0 15px;
     ${device.large} {
         padding: 98px 0 187px;
     }

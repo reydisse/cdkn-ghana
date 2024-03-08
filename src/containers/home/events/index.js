@@ -82,6 +82,7 @@ const EventArea = () => {
                         fontWeight: 400,
                         fontFamily: "Myriad Pro",
                         fontStyle: "italic",
+                        padding: "15px",
                     }}
                 >
                     For insights into our previous initiatives and the impactful

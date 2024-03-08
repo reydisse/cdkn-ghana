@@ -1,7 +1,7 @@
 import styled, { themeGet, device } from "@theme/utils";
 
 export const PostItemWrap = styled.div`
-    margin-bottom: 150px;
+    margin-bottom: 15px;
     position: relative;
     ${device.large} {
         margin-bottom: 30px;

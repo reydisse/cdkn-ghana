@@ -13,6 +13,6 @@ export const SectionArea = styled.section`
         padding: 88px 0 92px;
     }
     ${device.xlarge} {
-        padding: 35px 0 120px;
+        padding: 35px 0 40px;
     }
 `;

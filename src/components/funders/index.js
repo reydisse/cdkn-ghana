@@ -35,7 +35,8 @@ const FundersArea = () => {
                         xl={12}
                     >
                         <SectionTitle
-                            texttheme
+                            titleStyle
+                            // texttheme
                             sx={{
                                 mb: ["30px", "50px", "60px", "60px", "60px"],
                                 mt: ["0px", "0px", "0px", "0px", "60px"],

@@ -86,6 +86,14 @@ export const ContentBoxWrp = styled.div`
         margin-top: 44px;
         padding-left: 40px;
     }
+    @media (max-width: 767px) {
+        margin-top: 22px;
+        padding-left: 20px;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        margin-top: 30px; /* Example margin for iPad */
+        padding-left: 30px; /* Example padding for iPad */
+    }
 `;
 
 export const ContentBoxItem = styled.div`

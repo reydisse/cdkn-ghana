@@ -11,7 +11,7 @@ export const EventItemWrap = styled.div`
     }
 `;
 export const Thumb = styled.div`
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     .gatsby-image-wrapper-constrained {
         display: block !important;
     }

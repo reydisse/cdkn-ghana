@@ -6,7 +6,7 @@ export const SectionTitleArea = styled.div`
 export const SubTitle = styled.h5`
     color: ${themeGet("colors.primary")};
     display: inline-block;
-    font-family: ${themeGet("fonts.body")};
+    font-family: Myriad Pro, monospace;
     font-size: ${themeGet("fontSize.h5.0")};
     font-weight: 700;
     line-height: 0;
