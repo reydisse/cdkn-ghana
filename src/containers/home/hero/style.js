@@ -67,8 +67,8 @@ export const SubTitle = styled.div`
 export const HeroTitleWrap = styled.div`
     margin-bottom: 30px;
     h1 {
-        text-transform: capitalize;
-        font-size: 75px !important;
+        // text-transform: capitalize;
+        font-size: 75px;
         line-height: 1;
         ${device.medium} {
             font-size: ${themeGet("fontSize.h1.2")};
@@ -87,6 +87,14 @@ export const HeroTitleWrap = styled.div`
         ${device.xxlarge} {
             font-size: ${themeGet("fontSize.h1.6")};
             line-height: 1.0934;
+        }
+        @media (max-width: 767px) {
+            font-size: 50px;
+        }
+
+        /* Styles for iPad screen sizes */
+        @media (min-width: 768px) and (max-width: 1024px) {
+            font-size: 30px;
         }
 
         span {
