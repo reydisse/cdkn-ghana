@@ -20,10 +20,10 @@ const JoinApplyArea = () => {
                             <SectionTitle>
                                 <SubTitle>Join With Us</SubTitle>
                                 <Title>
-                                    If You Interest! You Can Join With Us{" "}
-                                    <span>As A Volunteer.</span>
+                                    Join our Team Today!{" "}
+                                    <span>Become A Volunteer.</span>
                                 </Title>
-                                <Text>
+                                {/* <Text>
                                     Lorem Ipsum is simply dummy text of the
                                     printing and typesetting industry. Lorem
                                     Ipsum has been the industry&apos;s standard
@@ -33,7 +33,7 @@ const JoinApplyArea = () => {
                                     It has survived not only five centuries but
                                     electronic typesetting, remaining
                                     essentially unchanged.
-                                </Text>
+                                </Text> */}
                             </SectionTitle>
 
                             <VolunteerForm />
