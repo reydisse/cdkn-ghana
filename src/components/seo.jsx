@@ -79,6 +79,9 @@ const SEO = ({
         case "/blog":
             siteTitle = `Stories of Resilience | ${site.siteMetadata.title}`;
             break;
+        case "/events":
+            siteTitle = `Events and Opportunities | ${site.siteMetadata.title}`;
+            break;
         case "/volunteer":
             siteTitle = `Become a volunteer | ${site.siteMetadata.title}`;
             break;

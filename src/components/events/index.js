@@ -26,9 +26,7 @@ const EventItem = ({ title, eventDate, eventSubject, thumbImg, slug }) => {
                     className="btn-theme"
                     size="small"
                     color="theme-gradient"
-                    path={
-                        "https://docs.google.com/spreadsheets/d/1SyRwn-q3cyleST8WStjjK9QVdIQhFNhg/edit#gid=1282983377"
-                    }
+                    path="/events"
                 >
                     View more
                     <i

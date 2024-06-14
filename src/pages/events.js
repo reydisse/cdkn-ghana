@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import PropTypes from "prop-types";
 import Layout from "@layout";
 import SEO from "@components/seo";
@@ -7,11 +8,11 @@ import DonateArea from "../containers/donate";
 const DonatePages = ({ location, pageContext }) => {
     return (
         <Layout>
-            <SEO title="Donate" pathname="/" />
+            <SEO title="Events and Opportunities" pathname="/events" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
-                title="Donate"
+                title="Events and Opportunities"
             />
             <DonateArea />
         </Layout>

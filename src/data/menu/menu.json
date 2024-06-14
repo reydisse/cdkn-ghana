@@ -21,12 +21,12 @@
     },
     {
         "text": "Events & Opportunities",
-        "link": "https://docs.google.com/spreadsheets/d/1SyRwn-q3cyleST8WStjjK9QVdIQhFNhg/edit#gid=1282983377",
+        "link": "/events",
         "isSubmenu": true,
         "submenu": [
             {
                 "text": "Events",
-                "link": "https://docs.google.com/spreadsheets/d/1SyRwn-q3cyleST8WStjjK9QVdIQhFNhg/edit#gid=1282983377"
+                "link": "/events"
             },
             {
                 "text": "Volunteer",

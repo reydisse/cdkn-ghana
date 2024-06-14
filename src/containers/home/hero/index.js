@@ -61,7 +61,7 @@ const Hero = () => {
 
     const image = getImage(sliderImage);
     const image1 = getImage(circleImage);
-    // const image2 = getImage(shapeImage1);
+    const image2 = getImage(shapeImage1);
     const image3 = getImage(shapeImage2);
 
     // Parallax actives
@@ -125,7 +125,7 @@ const Hero = () => {
                                         className="scene-layer"
                                         data-depth="0.20"
                                     >
-                                        <GatsbyImage image={image} alt="" />
+                                        <GatsbyImage image={image} alt="cdkn" />
                                     </span>
                                     <div className="shape-circle scene">
                                         <span
@@ -153,14 +153,7 @@ const Hero = () => {
                                 <div
                                     className="shape-style1 scene"
                                     ref={sceneEl}
-                                >
-                                    <span
-                                        className="scene-layer"
-                                        data-depth="0.30"
-                                    >
-                                        {/* <GatsbyImage image={image2} alt="" /> */}
-                                    </span>
-                                </div>
+                                ></div>
                                 <DonateCircleWrap>
                                     <div className="pie-chart-circle"></div>
                                     <DonateContent>

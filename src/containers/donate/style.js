@@ -1,14 +1,16 @@
+/* eslint-disable prettier/prettier */
 import styled, { themeGet, device } from "@theme/utils";
 
 export const SectionArea = styled.section`
-    padding: 60px 15px 267px;
+    background-color: #fbf1df;
+    padding: 0px 15px 267px;
     ${device.medium} {
-        padding: 38px 0 292px;
+        padding: 0px 0 267px;
     }
     ${device.large} {
-        padding: 88px 0 292px;
+        padding: 0px 0 267px;
     }
     ${device.xlarge} {
-        padding: 109px 0 339px;
+        padding: 0px 0 267px;
     }
 `;
