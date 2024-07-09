@@ -1,4 +1,7 @@
-/* eslint-disable prettier/prettier */
+require("dotenv").config({
+    path: `.env`,
+});
+
 const config = require("./config/config");
 const activeEnv =
     process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development";
@@ -131,6 +134,18 @@ module.exports = {
                         type: "image/png",
                     },
                 ],
+            },
+        },
+        {
+            resolve: `gatsby-source-wordpress`,
+            options: {
+                url: `https://gatsbypreview.wpengine.com/graphql`,
+                auth: {
+                    htaccess: {
+                        username: process.env.HTTPBASICAUTH_USERNAME,
+                        password: process.env.HTTPBASICAUTH_PASSWORD,
+                    },
+                },
             },
         },
     ],

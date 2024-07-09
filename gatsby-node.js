@@ -1,5 +1,6 @@
-/* eslint-disable prettier/prettier */
 const path = require("path");
+const axios = require("axios");
+const crypto = require("crypto");
 const { slugify } = require("./src/utils/functions");
 const _ = require("lodash");
 
@@ -7,10 +8,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     actions.setWebpackConfig({
         resolve: {
             alias: {
-                "@theme": path.resolve(
-                    __dirname,
-                    "./src/gatsby-plugin-theme-ui"
-                ),
+                "@theme": path.resolve(__dirname, "./src/gatsby-plugin-theme-ui"),
                 "@components": path.resolve(__dirname, "./src/components"),
                 "@shared": path.resolve(__dirname, "./src/components/shared"),
                 "@containers": path.resolve(__dirname, "./src/containers"),
@@ -22,6 +20,32 @@ exports.onCreateWebpackConfig = ({ actions }) => {
                 "@data": path.resolve(__dirname, "./src/data"),
             },
         },
+    });
+};
+
+exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => {
+    const { createNode } = actions;
+
+    // Fetch data from the WordPress REST API
+    const fetchPosts = () => axios.get('https://stories-cdknghana.org/wp-json/wp/v2/posts');
+    const res = await fetchPosts();
+
+    // Create nodes for each post
+    res.data.forEach(post => {
+        const nodeContent = JSON.stringify(post);
+        const nodeMeta = {
+            id: createNodeId(`wordpress-post-${post.id}`),
+            parent: null,
+            children: [],
+            internal: {
+                type: 'WordpressPost',
+                mediaType: `application/json`,
+                content: nodeContent,
+                contentDigest: createContentDigest(post),
+            },
+        };
+        const node = Object.assign({}, post, nodeMeta);
+        createNode(node);
     });
 };
 
@@ -38,7 +62,7 @@ exports.onCreateNode = ({ node, actions }) => {
             value: slugFromTitle,
         });
     }
-    // Sevices Json File Create
+    // Services Json File Create
     if (node.internal.type === "ServersJson") {
         createNodeField({
             node,
@@ -75,6 +99,7 @@ exports.createPages = ({ actions, graphql }) => {
         causesPost: path.resolve("src/templates/causes-details/index.js"),
         eventPosts: path.resolve("src/templates/event-details/index.js"),
         servicesPosts: path.resolve("src/templates/services-details/index.js"),
+        wordpressPost: path.resolve("src/templates/single-post/index.js"),
     };
 
     return graphql(`
@@ -123,6 +148,18 @@ exports.createPages = ({ actions, graphql }) => {
                     }
                 }
             }
+
+            allWordpressPost {
+                edges {
+                    node {
+                        id
+                        slug
+                        title {
+                            rendered
+                        }
+                    }
+                }
+            }
         }
     `).then((res) => {
         if (res.errors) return Promise.reject(res.errors);
@@ -135,15 +172,15 @@ exports.createPages = ({ actions, graphql }) => {
                 path: node.fields.slug,
                 component: templates.singlePost,
                 context: {
-                    // Pssing slug for Templates to use to get post
+                    // Passing slug for Templates to use to get post
                     slug: node.fields.slug,
                     // Find author imageUrl from author and pass it to the single post templates
-                    //imageUrl: authors.find(x => x.name === node.frontmatter.author).imageUrl
+                    // imageUrl: authors.find(x => x.name === node.frontmatter.author).imageUrl
                 },
             });
         });
 
-        // Serives Causes Details Page
+        // Services Causes Details Page
         const serversJson = res.data.allServersJson.edges;
         serversJson.forEach(({ node }) => {
             createPage({
@@ -178,6 +215,18 @@ exports.createPages = ({ actions, graphql }) => {
             });
         });
 
+        // Create WordPress Post Pages
+        const wordpressPosts = res.data.allWordpressPost.edges;
+        wordpressPosts.forEach(({ node }) => {
+            createPage({
+                path: `/blog/${slugify(node.title.rendered)}`,
+                component: templates.wordpressPost,
+                context: {
+                    id: node.id,
+                },
+            });
+        });
+
         // Get all Tag
         let tags = [];
         _.each(posts, (edge) => {
@@ -203,16 +252,14 @@ exports.createPages = ({ actions, graphql }) => {
             });
         });
 
-        // Get all Categorie Post
+        // Get all Category Post
         let categories = [];
         _.each(posts, (edge) => {
             if (_.get(edge, "node.frontmatter.categories")) {
-                categories = categories.concat(
-                    edge.node.frontmatter.categories
-                );
+                categories = categories.concat(edge.node.frontmatter.categories);
             }
         });
-        // Categorie Post Page Create
+        // Category Post Page Create
         categories.forEach((categorie) => {
             createPage({
                 path: `/categories/${slugify(categorie)}`,
@@ -223,7 +270,7 @@ exports.createPages = ({ actions, graphql }) => {
             });
         });
 
-        // Post List pagintion
+        // Post List pagination
         const postsPerPage = 3;
         const numberOfPages = Math.ceil(posts.length / postsPerPage);
 
