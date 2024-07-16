@@ -139,13 +139,14 @@ module.exports = {
         {
             resolve: `gatsby-source-wordpress`,
             options: {
-                url: `https://gatsbypreview.wpengine.com/graphql`,
-                auth: {
-                    htaccess: {
-                        username: process.env.HTTPBASICAUTH_USERNAME,
-                        password: process.env.HTTPBASICAUTH_PASSWORD,
-                    },
-                },
+                url: `https://stories-cdknghana.org/wp-json/wp/v2/posts/`,
+                //https://gatsbypreview.wpengine.com/graphql
+                // auth: {
+                //     htaccess: {
+                //         username: process.env.HTTPBASICAUTH_USERNAME,
+                //         password: process.env.HTTPBASICAUTH_PASSWORD,
+                //     },
+                // },
             },
         },
     ],
