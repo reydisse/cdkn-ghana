@@ -28,11 +28,13 @@ import {
 } from "./style";
 
 const SinglePosts = ({ data, location, pageContext }) => {
-    const post = data.markdownRemark.frontmatter;
-    const image = getImage(post.thume_image.childImageSharp);
+    const post = data.allWordpressPost.edges[0].node;
+    // Note: featured_media is now just an ID, not an image object
+    // You'll need to query for the actual image separately if needed
 
     // Author Post page
-    const author = authors.find((x) => x.name === post.author);
+    // Note: author is now just an ID, you'll need to fetch author details separately
+    const author = authors.find((x) => x.id === post.author);
 
     // Social Share
     const baseUrl = "https://hasthems.com";
@@ -40,14 +42,14 @@ const SinglePosts = ({ data, location, pageContext }) => {
     // Disqus Comments add
     const disqusShorttname = "mitech-1";
     const disquscConfig = {
-        identifier: data.markdownRemark.id,
-        title: post.title,
+        identifier: post.id,
+        title: post.title.rendered,
         url: baseUrl + "/" + pageContext.slug,
     };
 
     return (
         <Layout>
-            <SEO title={post.title} pathname="/" />
+            <SEO title={post.title.rendered} pathname="/" />
             <PageBreadcrumb
                 pageContext={pageContext}
                 location={location}
@@ -59,30 +61,24 @@ const SinglePosts = ({ data, location, pageContext }) => {
                         <Col lg={8}>
                             <PostDetailsContentWrap>
                                 <PostDetailsBody>
+                                    {/* Note: You'll need to handle the featured image differently now */}
                                     <Thumb>
-                                        <GatsbyImage
-                                            image={image}
-                                            alt={post.title}
-                                        />
+                                        {/* Replace this with appropriate image handling */}
+                                        {/* <GatsbyImage image={getImage(post.featured_media)} alt={post.title.rendered} /> */}
                                     </Thumb>
                                     <Content>
                                         <MetaBox>
                                             {post.categories &&
-                                                post.categories.map(
-                                                    (categorie, i) => (
-                                                        <Link
-                                                            className="post-category"
-                                                            key={`${slugify(
-                                                                categorie
-                                                            )}-${i}`}
-                                                            to={`/tag/${slugify(
-                                                                categorie
-                                                            )}`}
-                                                        >
-                                                            {categorie}
-                                                        </Link>
-                                                    )
-                                                )}
+                                                post.categories.map((categoryId, i) => (
+                                                    <Link
+                                                        className="post-category"
+                                                        key={`category-${categoryId}-${i}`}
+                                                        to={`/category/${categoryId}`}
+                                                    >
+                                                        {/* You'll need to fetch category names separately */}
+                                                        Category {categoryId}
+                                                    </Link>
+                                                ))}
                                             {author && (
                                                 <Link
                                                     className="post-author"
@@ -99,11 +95,10 @@ const SinglePosts = ({ data, location, pageContext }) => {
                                                 </Link>
                                             )}
                                         </MetaBox>
-                                        <Title>{post.title}</Title>
+                                        <Title>{post.title.rendered}</Title>
                                         <SingleBlogContent
                                             dangerouslySetInnerHTML={{
-                                                __html: data.markdownRemark
-                                                    .html,
+                                                __html: post.content.rendered,
                                             }}
                                         />
 
@@ -127,7 +122,7 @@ const SinglePosts = ({ data, location, pageContext }) => {
                                                         baseUrl +
                                                         pageContext.slug +
                                                         "&text=" +
-                                                        post.title +
+                                                        post.title.rendered +
                                                         "&via" +
                                                         "twitterHandle"
                                                     }
@@ -137,17 +132,14 @@ const SinglePosts = ({ data, location, pageContext }) => {
                                             </PostSocialItems>
                                             <PostCategoryItems>
                                                 <span>Category: </span>
-                                                {post.tags.map((tag, i) => (
+                                                {post.categories.map((categoryId, i) => (
                                                     <Link
                                                         key={i}
-                                                        to={`/tag/${slugify(
-                                                            tag
-                                                        )}`}
+                                                        to={`/category/${categoryId}`}
                                                     >
-                                                        {tag}
-                                                        {i !==
-                                                            post.tags.length -
-                                                                1 && ", "}
+                                                        {/* You'll need to fetch category names separately */}
+                                                        Category {categoryId}
+                                                        {i !== post.categories.length - 1 && ", "}
                                                     </Link>
                                                 ))}
                                             </PostCategoryItems>
@@ -180,25 +172,26 @@ SinglePosts.propTypes = {
 };
 
 export const postQuery = graphql`
-    query blogPostBySlug($slug: String!) {
-        markdownRemark(fields: { slug: { eq: $slug } }) {
-            id
-            html
-            frontmatter {
-                author
-                categories
-                date
-                tags
-                quote_text
-                title
-                thume_image {
-                    childImageSharp {
-                        gatsbyImageData(width: 750, height: 400)
+    query BlogPostBySlug($slug: String!) {
+        allWordpressPost(filter: { slug: { eq: $slug } }) {
+            edges {
+                node {
+                    id
+                    date
+                    content {
+                        rendered
+                        protected
                     }
+                    title {
+                        rendered
+                    }
+                    featured_media
+                    categories
+                    author
                 }
             }
-            excerpt
         }
     }
 `;
+
 export default SinglePosts;

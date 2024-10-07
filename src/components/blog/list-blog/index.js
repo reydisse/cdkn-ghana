@@ -22,7 +22,7 @@ const BlogList = ({
     thume_image,
     title,
     date,
-    categories,
+    categories = [],
     body,
     postAuthor,
     slug,
@@ -52,7 +52,7 @@ const BlogList = ({
             <ListBlogContent>
                 <ListBlogContentInner>
                     <MetaBox>
-                        {categories.map((categorie, i) => (
+                        {Array.isArray(categories) && categories.map((categorie, i) => (
                             <Link
                                 className="post-category"
                                 key={`${slugify(categorie)}-${i}`}
@@ -70,7 +70,7 @@ const BlogList = ({
                                         alt="Icon-Image"
                                     />
                                 </span>
-                                By: {author && author.name}
+                                By: {author.name}
                             </Link>
                         )}
                     </MetaBox>

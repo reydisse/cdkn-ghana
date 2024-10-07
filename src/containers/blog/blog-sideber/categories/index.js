@@ -4,6 +4,24 @@ import { graphql, useStaticQuery } from "gatsby";
 const AllCategories = () => {
     const categoriesQuery = useStaticQuery(graphql`
         query CategoriesQuery {
+         allWordpressPost {
+    edges {
+      node {
+        id
+        date
+        content {
+          rendered
+          protected
+        }
+        title {
+          rendered
+        }
+        featured_media
+        categories
+      }
+    }
+  }
+
             allMarkdownRemark {
                 edges {
                     node {

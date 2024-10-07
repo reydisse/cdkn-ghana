@@ -6,63 +6,54 @@ import { graphql, useStaticQuery } from "gatsby";
 import PaginationLinks from "../../../components/pagination";
 
 const BlogPostArea = () => {
-    const listBlogQuery = useStaticQuery(graphql`
-        query ListBlogQuery {
-            allMarkdownRemark(sort: { frontmatter: { date: DESC } }, limit: 3) {
-                totalCount
-                edges {
-                    node {
-                        id
-                        frontmatter {
-                            title
-                            date(formatString: "MMMM DD YYYY")
-                            categories
-                            author
-                            thume_image {
-                                childImageSharp {
-                                    gatsbyImageData(width: 750, height: 400)
-                                }
-                            }
-                        }
-                        fields {
-                            slug
-                        }
-                        excerpt(pruneLength: 225)
-                    }
-                }
+  const listBlogQuery = useStaticQuery(graphql`
+    query ListBlogQuery {
+      allWordpressPost {
+        totalCount
+        edges {
+          node {
+            id
+            featured_media
+            content {
+              rendered
             }
+            date(formatString: "MMM DD YYYY")
+            title {
+              rendered
+            }
+            slug
+            author
+          }
         }
-    `);
-    const { totalCount } = listBlogQuery.allMarkdownRemark;
-    const listBlogData = listBlogQuery.allMarkdownRemark.edges;
-    const postsPerPage = 3;
-    let numberOfPages = Math.ceil(totalCount / postsPerPage);
-    return (
-        <BlogPostContentArea>
-            {listBlogData &&
-                listBlogData.map((blog, i) => {
-                    return (
-                        <BlogList
-                            key={i}
-                            title={blog.node.frontmatter.title}
-                            thume_image={blog.node.frontmatter.thume_image}
-                            categories={blog.node.frontmatter.categories}
-                            body={blog.node.excerpt}
-                            date={blog.node.frontmatter.date}
-                            slug={blog.node.fields.slug}
-                            postAuthor={blog.node.frontmatter.author}
-                        />
-                    );
-                })}
+      }
+    }
+  `);
+  
+  const { totalCount } = listBlogQuery.allWordpressPost;
+  const listBlogData = listBlogQuery.allWordpressPost.edges;
+  const postsPerPage = 3;
+  let numberOfPages = Math.ceil(totalCount / postsPerPage);
 
-            <PaginationArea>
-                <PaginationLinks
-                    currentPage={1}
-                    numberOfPages={numberOfPages}
-                />
-            </PaginationArea>
-        </BlogPostContentArea>
-    );
+  return (
+    <BlogPostContentArea>
+      {listBlogData &&
+        listBlogData.map(({ node }, i) => (
+          <BlogList
+            key={i}
+            title={node.title.rendered}
+            thume_image={node.featured_media}
+            body={node.content.rendered}
+            date={node.date}
+            slug={node.slug}
+            postAuthor={node.author}
+          />
+        ))}
+
+      <PaginationArea>
+        <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
+      </PaginationArea>
+    </BlogPostContentArea>
+  );
 };
 
 export default BlogPostArea;
